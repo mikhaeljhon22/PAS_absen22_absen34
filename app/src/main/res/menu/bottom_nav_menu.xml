@@ -1,11 +1,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_ListFootballPremier"
-        android:title="List Football Premier League" />
+        android:icon="@drawable/football"
+        android:title="Premiere League" />
     <item
         android:id="@+id/nav_JadwalPertandigan"
-        android:title="Jadwal Pertandingan" />
+        android:icon="@drawable/calendar"
+        android:title="Jadwal" />
     <item
         android:id="@+id/Biodata"
-        android:title="Biodata" />
+        android:icon="@drawable/img"
+        android:title="Profile" />
 </menu>
