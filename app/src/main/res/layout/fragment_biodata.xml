@@ -2,12 +2,82 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/foto_kelompok"
+        android:contentDescription="Foto Profil"
+        android:scaleType="centerCrop"
+        android:background="@drawable/foto_kelompok"
+        android:padding="5dp" />
+
 
     <TextView
-        android:id="@+id/rvBiodata"
-        android:textSize="24sp"
+        android:id="@+id/textName"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Anggota: "
+        android:textSize="24sp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="#000000"
+        android:layout_marginBottom="4dp"/>
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Mikhael Fabianksy - Absen 22"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mikhaeljhon22@gmail.com"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#666666"
+        android:layout_marginBottom="16dp" />
+    <TextView
+        android:id="@+id/textNama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Shidqi Dzil Fahmi - Absen 34"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/textEmail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zilmff13@gmail.com"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#666666"
+        android:layout_marginBottom="16dp" />
+
+
+    <TextView
+        android:id="@+id/textBio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project PAS Mobile Dev"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:paddingTop="100dp"
+        android:paddingHorizontal="24dp" />
+
 </LinearLayout>

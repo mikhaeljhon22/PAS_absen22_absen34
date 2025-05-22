@@ -3,7 +3,11 @@
         android:id="@+id/nav_ListFootballPremier"
         android:title="List Football Premier League" />
     <item
+<<<<<<< HEAD
         android:id="@+id/nav_DaftarJadwal"
+=======
+        android:id="@+id/nav_JadwalPertandigan"
+>>>>>>> origin/master
         android:title="Jadwal Pertandingan" />
     <item
         android:id="@+id/Biodata"

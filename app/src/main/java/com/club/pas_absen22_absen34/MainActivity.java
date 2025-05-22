@@ -30,10 +30,15 @@ public class MainActivity extends AppCompatActivity {
 
             if (itemId == R.id.nav_ListFootballPremier) {
                 fragment = new ListFootball();
+<<<<<<< HEAD
             } else if (itemId == R.id.nav_DaftarJadwal) {
                 fragment = new DaftarJadwal();
+=======
+            } else if (itemId == R.id.nav_JadwalPertandigan) {
+                fragment = new JadwalPertandingan();
+>>>>>>> origin/master
             } else if (itemId == R.id.Biodata) {
-                fragment = new Biodaata();
+                fragment = new Biodata();
             }
 
             if (fragment != null) {
