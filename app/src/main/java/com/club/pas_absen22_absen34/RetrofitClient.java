@@ -1,18 +1,10 @@
 package com.club.pas_absen22_absen34;
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
-<<<<<<< HEAD
 
     private static final String BASE_URL = "https://www.thesportsdb.com/";
-=======
-    private static final String BASE_URL = "https://www.thesportsdb.com/api/v1/json/3/";
->>>>>>> origin/master
     private static Retrofit retrofit;
 
     public static Retrofit getInstance() {
