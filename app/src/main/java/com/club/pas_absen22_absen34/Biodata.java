@@ -7,11 +7,10 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-public class DaftarPemainTim extends Fragment {
+public class Biodata extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_daftartim, container, false);
+        View view = inflater.inflate(R.layout.fragment_biodata, container, false);
         return view;
     }
-
 }
