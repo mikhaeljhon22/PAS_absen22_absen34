@@ -4,9 +4,6 @@ import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -33,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
             if (itemId == R.id.nav_ListFootballPremier) {
                 fragment = new ListFootball();
-            } else if (itemId == R.id.nav_DaftarPemainTim) {
-                fragment = new DaftarPemainTim();
+            } else if (itemId == R.id.nav_DaftarJadwal) {
+                fragment = new DaftarJadwal();
             } else if (itemId == R.id.Biodata) {
                 fragment = new Biodaata();
             }
